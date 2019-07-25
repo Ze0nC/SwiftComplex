@@ -226,7 +226,7 @@ extension Complex {
 }
 
 extension Double {
-    var i : Complex {
+    public var i : Complex {
         return Complex(0.0, self)
     }
 }

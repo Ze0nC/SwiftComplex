@@ -8,20 +8,20 @@
 import Foundation
 
 
-protocol ComplexAdditiveArithmetic {
+public protocol ComplexAdditiveArithmetic {
     static func + (lhs: Self, rhs: Complex) -> Complex
     static func + (lhs: Complex, rhs: Self) -> Complex
     static func - (lhs: Self, rhs: Complex) -> Complex
     static func - (lhs: Complex, rhs: Self) -> Complex
 }
 
-protocol ComplexMultiplicativeArithmetic {
+public protocol ComplexMultiplicativeArithmetic {
     static func * (lhs: Self, rhs: Complex) -> Complex
     static func * (lhs: Complex, rhs: Self) -> Complex
     static func / (lhs: Self, rhs: Complex) -> Complex
     static func / (lhs: Complex, rhs: Self) -> Complex
 }
 
-typealias ComplexOperatable = ComplexAdditiveArithmetic & ComplexMultiplicativeArithmetic
+public typealias ComplexOperatable = ComplexAdditiveArithmetic & ComplexMultiplicativeArithmetic
 
 
