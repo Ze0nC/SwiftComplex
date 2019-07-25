@@ -11,6 +11,7 @@ public struct Complex: SignedNumeric{
 
 ## Installation 
 Method 1: Add this git to your Xcode project by `File > Swift Packages > Add Package Dependency ...`
+
 Method 2: Add `Complex.swift`, `ComplexOperatable.swift`, and `Double+Complex.swift` to your project and build.
 
 ## Usage

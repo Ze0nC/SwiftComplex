@@ -1,7 +1,7 @@
 import XCTest
-@testable import SwiftComplex
+@testable import Complex
 
-final class SwiftComplexTests: XCTestCase {
+final class ComplexTests: XCTestCase {
     func testComplex() {
         let c1 = Complex(1.0, 2.0)
         let c2 = 3.0 + 4.0.i
