@@ -41,17 +41,17 @@ public struct Complex {
     }
     
     /// Return the norm of the complex.
-    var norm: Double {
+    public var norm: Double {
         return sqrt(self.real * self.real + self.imag * self.imag)
     }
     
     /// Return the norm squared of the complex.
-    var norm²: Double {
+    public var norm²: Double {
         return self.real * self.real + self.imag * self.imag
     }
     
     /// Return the conjugated complex of the complex.
-    var conj: Complex {
+    public var conj: Complex {
         return Complex(self.real, -self.imag)
     }
 }
