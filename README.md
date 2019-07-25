@@ -15,7 +15,12 @@ Method 1: Add this git to your Xcode project by `File > Swift Packages > Add Pac
 Method 2: Add `Complex.swift`, `ComplexOperatable.swift`, and `Double+Complex.swift` to your project and build.
 
 ## Usage
-### Make Complex
+### Import
+````swift
+import Complex
+````
+
+### Create Complex
 ````swift
 let c1 = Complex(1.0, 2.0)          // 1.0 + 2.0i
 let c2 = 3.0 + 4.0.i                // 3.0 + 4.0i
